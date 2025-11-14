@@ -1,5 +1,6 @@
-# Use the official Node.js runtime as the base image
-FROM node:18-alpine
+# Use AWS ECR Public Node.js image for better AWS integration
+FROM public.ecr.aws/docker/library/node:22-alpine
+
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app

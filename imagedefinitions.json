@@ -1,6 +1,6 @@
 [
   {
-    "name": "HelloWorldContainer",
+    "name": "HelloWorldService",
     "imageUri": "357482753949.dkr.ecr.us-east-1.amazonaws.com/ecrnamespace/firstecr"
   }
 ]
